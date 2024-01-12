@@ -1,0 +1,1 @@
+Basic Recipe website for practice/learning. Part of The Odin Project: https://www.theodinproject.com/lessons/foundations-recipes
