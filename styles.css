@@ -1,4 +1,49 @@
-.container {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300;400;500&family=Sen:wght@400;700&display=swap'); 
+
+.flex-container {
     display: flex;
+    align-items: center;
     justify-content: center;
-}
+  }
+  .actions {
+    width: 104px;
+    padding: 8px 8px;
+    background-color: rgb(217, 223, 227);
+    border-radius: 4px;
+  }
+  .actions a {
+    height: 100%;
+    width: 100%;
+    color: rgb(8, 50, 72);
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .actions:hover {
+    background-color: #CED4D8;
+  }
+  .flex-wrap {
+    width: 900px;
+    border: 2px solid;
+    padding: 24px;
+  }
+  .flex-wrap {
+    font-family: 'Sen', sans-serif;
+  }
+  .flex-wrap h1 {
+    margin-top: 24px;
+  }
+  #home-h1 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    margin-right: 150px;
+    margin-left: 0;
+  }
+  #home-flex-wrap {
+    width: 900px;
+  }
+  .home-link {
+    border: 2px solid;
+    padding: 24px;
+    text-decoration: none;
+    display: inline-block;
+  }
